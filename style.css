@@ -1,0 +1,61 @@
+.in{
+    background-color: #bc4749;
+    font-size: 30px;
+    border:0px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: inset 3px 3px 5px rgba(82, 20, 21, 0.418);
+    
+}
+#in1{
+    margin-top: 3%;
+}
+.tasti{
+    background-color: #6A994E;
+    border-radius: 15px;
+    font-size: 30px;
+    width:55px;
+    border: 0px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    padding: 4px;
+}
+.tasti:active{
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+}
+#operatore{
+    background-color: #a7c957;
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left:45%;
+    margin-right:45%;
+    border-radius: 15px;
+    box-shadow: inset 4px 4px 10px rgba(5, 95, 7, 0.3);
+}
+#uguale{
+    background-color: #386641;
+    border-radius: 15px;
+    font-size: 30px;
+    width:80px;
+    border: 0px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    padding: 4px;
+}
+#uguale:active{
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+}
+#risultato{
+    color: #bc4749;
+    font-weight: 800;
+    font-size: 30px;
+}
+#titolo{
+    color: #bc4749;
+    font-weight: 800;
+    font-size:60px;
+    margin-bottom: 30px;
+}
