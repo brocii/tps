@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Calcolatrice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center">
+        <input type="text" id="in1" class="in" >
+        <p id="operatore">__</p>
+        <input type="text" id="in2" class="in"><br><br>
+        <p id="risultato">____________</p>
+        <input type="button" class="tasti" onclick="inserisci(); somma()" value="+">
+        <input type="button" class="tasti" onclick="inserisci(); sottrazione()" value="-">
+        <input type="button" class="tasti" onclick="inserisci(); moltiplicazione()" value="x">
+        <input type="button" class="tasti" onclick="inserisci(); divisione()" value="/"><br><br>
+        <input type="button" id="uguale" onclick="risultato()" value="=">
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
