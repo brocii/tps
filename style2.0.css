@@ -1,0 +1,74 @@
+
+
+#display{
+    padding-top: 2%;
+    margin-bottom:10%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: #BC4749;
+    box-shadow: inset 3px 3px 5px rgba(82, 20, 21, 0.418);
+    color: #F2E8CF;
+}
+#display-i{
+    text-align: center;
+    background-color: #BC4749;
+    border: 0px;
+    outline: none;
+    color: #F2E8CF;
+    font-size: 30px;
+    width: 100%;
+}
+
+#sfondo{
+    background-color:#F2E8CF;
+    border-radius: 40px;
+    padding: 3%;
+    margin-top: 3%;
+    border: 0px;
+    width: 70%;
+    
+}
+.tasto{
+    width: 100%;
+    font-size: 30px;
+    margin:1%;
+    margin-top: 5%;
+    border:2px, solid black;
+    border-radius: 15px;
+    padding: 4%;
+    font-weight: 600;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.3); 
+    
+}
+.tasto:active{
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+}
+#num{
+    background-color: #A7C957;
+    color: #386641;
+}
+#operatore{
+    background-color:#6A994E;
+    color: #A7C957;
+    
+}
+#uguale{
+    background-color:#386641 ;
+    color: #A7C957;
+}
+#titolo{
+    text-align: center;
+    color: #bc4749;
+    font-weight: 800;
+    font-size:60px;
+    margin-bottom: 30px;
+}
+#reset{
+    background-color: #bc4749;
+    color: #F2E8CF;
+    margin-top: 10%;
+    height: 80%;
+}
+
+
