@@ -1,0 +1,24 @@
+#titolo{
+    color:#ffb300;
+    margin-bottom: 3%;
+    font-size: 70px;
+    font-weight: 800;
+}
+button{
+    background-color: #fff000;
+    border-radius: 5px;
+    padding: 1%;
+    font-size:25px;
+    margin-left:3%;
+    margin-right: 3%;
+    margin-top:3%;
+    border-color:#ffb300;
+    color:#684d0e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+button:hover {
+    background-color:#e6d409;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+}
