@@ -5,7 +5,7 @@ stella.lineWidth = 7;
 stella.strokeStyle = "#FFF000";
 
 function passi() {
-    stella.beginPath(); // Begin a new path before each drawing
+    stella.beginPath(); 
 
     switch (passo) {
         case 5:
